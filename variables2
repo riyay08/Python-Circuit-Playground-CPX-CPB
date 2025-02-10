@@ -1,0 +1,20 @@
+x = 10
+y = 5
+
+sum_result = x + y
+print("The sum of x and y is:", sum_result)
+
+name = "Riya"
+print("Hello, " + name + "!")
+
+pi = 3.14159
+print("Value of pi is approximately:", pi)
+
+is_python_fun = True
+print("Is Python fun?", is_python_fun)
+
+x = 20
+print("Now the value of x is:", x)
+
+new_result = x * y
+print("New result of x * y is:", new_result)
