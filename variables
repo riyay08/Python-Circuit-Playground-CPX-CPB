@@ -1,0 +1,9 @@
+my_Variable_Name = 99
+my_String = 'Hi there'
+somevariablewithalongname = 5
+x = 10 + somevariablewithalongname
+pi = 3.1415926535897931
+x = 7
+y = 12
+print(x)
+print(y)
