@@ -1,0 +1,8 @@
+x, y, z = 10, 20, 30
+print(x, y, z)
+
+a = b = c = 50
+print(a, b, c)
+
+x, y = y, x
+print(x, y)
