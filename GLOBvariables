@@ -1,0 +1,14 @@
+x = "global x"
+
+def my_function():
+    print(x)
+
+my_function()
+
+def my_function_with_local():
+    x = "local x"
+    print(x)
+
+my_function_with_local()
+
+print(x)
