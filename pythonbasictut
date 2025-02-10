@@ -1,0 +1,27 @@
+def main():
+    x = 2
+    y = 6
+    z = x + y
+    print("The sum of x and y is:", z)
+
+    if z > 5:
+        print("The sum is greater than 5!")
+    else:
+        print("The sum is 5 or less!")
+
+    count = 0
+    while count < 3:
+        print("This is loop number", count + 1)
+        count += 1
+
+    print("Let's see if we can make it to 10")
+    a = 4
+    b = 7
+    sum_ab = a + b
+    print("The sum of a and b is:", sum_ab)
+
+    if sum_ab == 11:
+        print("Perfect! We got exactly 11!")
+    else:
+        print("Oops, not 11.")
+main()
