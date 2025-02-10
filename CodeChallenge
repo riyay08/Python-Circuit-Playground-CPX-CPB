@@ -1,0 +1,31 @@
+def main():
+    print("Starting The Code Challenge")
+    
+    x = 42
+    y = 10
+    
+    print("Starting Math Operations Of Code Challenge")
+    
+    print('Enter Your Code Here:')
+    sum_xy = x + y
+    print("The sum of x and y is:", sum_xy)
+    
+    if sum_xy > 50:
+        print("The sum is greater than 50!")
+    else:
+        print("The sum is not greater than 50.")
+    
+    print("Starting While Loop Of Code Challenge")
+    count = 0
+    while count < 3:
+        print("This is loop number", count + 1)
+        count += 1
+        
+    print("Starting User Input Of Code Challenge")
+    name = input("What's your name? ")
+    print("Hello, " + name + "!")
+    
+    print("Ending User Input Of Code Challenge")
+    print("Ending The Code Challenge")
+
+main()
