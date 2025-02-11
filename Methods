@@ -1,0 +1,36 @@
+# LISTS - Methods - sort(), pop(), del, remove()
+print('''LISTS - Methods - sort(), pop(), del, remove()
+Learn more about Lists here:
+https://www.w3schools.com/python/python_lists.asp
+''')      
+print('''
+Challenge #1 
+Run, then Edit the code in the template example:
+
+On the following lists, use the sort(), pop(), del, remove() methods
+      ''')
+
+# sort()
+my_list = ["H", "e", "l", "l", "o", " ", "W", "o", "r", "l", "d"]
+print("Original list for sort():", my_list)
+my_list.sort()
+print("Sorted list:", my_list)
+
+# pop()
+my_list = ["STEAM", "Clown", "Productions"]
+print("\nOriginal list for pop():", my_list)
+popped_item = my_list.pop()
+print("List after pop():", my_list)
+print("Popped item:", popped_item)
+
+# del
+my_list = ["apple", "orange", "pomegranate", "pineapple"]
+print("\nOriginal list for del:", my_list)
+del my_list[1]
+print("List after del operation:", my_list)
+
+# remove()
+my_list = ["Centauri", "Minbari", "Narn", "Human", "Shadow", "Vorlon"]
+print("\nOriginal list for remove():", my_list)
+my_list.remove("Shadow")
+print("List after remove operation:", my_list)
