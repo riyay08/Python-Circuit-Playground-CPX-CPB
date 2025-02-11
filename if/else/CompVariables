@@ -1,5 +1,4 @@
-# Comparing Variables and Objects - Lab 2
-# Last Edit Jan 30 2023
+
 print('''
 Compare Variables or Objects For Equivalence:
 
@@ -31,8 +30,8 @@ Hint: https://www.w3schools.com/python/python_operators.asp
 ''')
 print('''Answer to Challenge 1
 -------------------------------------------------''')
-x=10  # <-- change the value of x
-y=9  # <-- change the value of y
+x=110  # <-- change the value of x
+y=98  # <-- change the value of y
 print("x = ", x)
 print("y = ", y)
 print("x == y \t\tis ", x == y)
