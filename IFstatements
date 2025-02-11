@@ -1,5 +1,4 @@
-# Python Lab - Introduction to "IF" statements
-# Last Edit Jan 30 2023
+
 print('''
 This Lab is about the 'IF' statement and how we ask questions.
 
@@ -29,15 +28,8 @@ x <= y      # x is less than or equal to y
 x is y      # x is the same as y
 x is not y  # x is not the same as y      
 
-# If you change the comparison operation, remember to change 
-it in the print statment too
----
 ''')
-# -------------------------------------------------
-print('''Answer to Challenge 1
-# If you change the comparison operation, remember to change 
-it in the print statment too
--------------------------------------------------''')
+
 x = 5
 y = 9
 z = 12
@@ -55,6 +47,4 @@ if x == z :
 
 if x == y-4 : 
   print("The if statement",x,"==",y-4,"was evaluated as 'True'")
-print('''
-Add 3-4 more of your own if statements
--------------------------------------------------''')
+
