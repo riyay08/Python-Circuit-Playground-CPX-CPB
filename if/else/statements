@@ -1,0 +1,17 @@
+age = int(input("Enter your age: "))
+
+if age < 13:
+    print("You're a kid!")
+elif age < 20:
+    print("You're a teenager!")
+else:
+    print("You're an adult!")
+
+answer = input("Do you like Python? (yes/no): ")
+
+if answer.lower() == "yes":
+    print("That's awesome!")
+elif answer.lower() == "no":
+    print("Maybe you'll like it later!")
+else:
+    print("I didn't understand your answer.")
