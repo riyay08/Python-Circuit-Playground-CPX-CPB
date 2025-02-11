@@ -1,0 +1,19 @@
+# FOR Loop with range
+print("FOR Loop with range:")
+for i in range(5):  # Iterates from 0 to 4 (5 is exclusive)
+    print(i)  # Output: 0, 1, 2, 3, 4
+
+# Definitive Loop: A loop with a known number of iterations
+print("\nDefinitive Loop (known number of iterations):")
+for i in range(1, 6):  # Iterates from 1 to 5
+    print(f"Iteration {i}")  # Output: Iteration 1, Iteration 2, ...
+
+# Iteration with Increment
+print("\nIteration with Increment:")
+for i in range(0, 10, 2):  # Start from 0, increment by 2, stop before 10
+    print(i)  # Output: 0, 2, 4, 6, 8
+
+# Iteration with Decrement
+print("\nIteration with Decrement:")
+for i in range(10, 0, -2):  # Start from 10, decrement by 2, stop before 0
+    print(i)  # Output: 10, 8, 6, 4, 2
