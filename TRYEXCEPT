@@ -1,0 +1,21 @@
+print('Write a program to compare 2 hard coded numbers with an IF/ELSE')
+
+number_2_guess = 7
+print("The number to guess is:", number_2_guess)
+
+try:
+    user_guess = int(input("Enter a number:"))
+    print("User's guess is:", user_guess)
+    print("Type of user_guess:", type(user_guess))
+
+    if user_guess == number_2_guess:
+        print("Good Guess, you are a Winner!")
+        print(user_guess, "is equal to", number_2_guess)
+    else:
+        print("Better Luck Next Time!")
+        print(user_guess, "is NOT equal to", number_2_guess)
+
+except ValueError:
+    print("Invalid input! Please enter a valid number.")
+
+print("All Done!")
