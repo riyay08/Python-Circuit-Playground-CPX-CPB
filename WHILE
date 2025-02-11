@@ -1,0 +1,26 @@
+# While Loop example: Sum numbers until the total reaches 50
+total = 0
+while total < 50:
+    total += 10  # Increment the total by 10 in each iteration
+    print(f"Current total: {total}")
+
+# While loop example: Ask for user input until they enter 'exit'
+user_input = ""
+while user_input != "exit":
+    user_input = input("Type 'exit' to stop: ")
+    print(f"You typed: {user_input}")
+
+# While loop example: Count down from 10 to 1
+count = 10
+while count > 0:
+    print(count)
+    count -= 1  # Decrement by 1
+print("Countdown complete!")
+
+# While loop with a condition to break
+count = 0
+while True:  # This loop will run indefinitely until a condition is met
+    count += 1
+    if count == 5:
+        print("Breaking the loop at count =", count)
+        break  # Exit the loop when count reaches 5
