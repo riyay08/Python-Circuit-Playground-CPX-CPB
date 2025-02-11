@@ -1,0 +1,39 @@
+# Creating a list
+fruits = ["apple", "banana", "cherry"]
+print("Original list:", fruits)
+
+# Accessing list items by index
+print("First fruit:", fruits[0])
+print("Last fruit:", fruits[-1])
+
+# Adding items to the list
+fruits.append("orange")
+print("List after adding an item:", fruits)
+
+# Inserting an item at a specific position
+fruits.insert(1, "kiwi")
+print("List after inserting an item:", fruits)
+
+# Removing an item by value
+fruits.remove("banana")
+print("List after removing 'banana':", fruits)
+
+# Popping the last item from the list
+popped_item = fruits.pop()
+print("Popped item:", popped_item)
+print("List after popping the last item:", fruits)
+
+# Changing an item in the list
+fruits[1] = "mango"
+print("List after changing an item:", fruits)
+
+# Length of the list
+print("Length of the list:", len(fruits))
+
+# Checking if an item is in the list
+if "apple" in fruits:
+    print("Apple is in the list!")
+
+# Sorting the list
+fruits.sort()
+print("Sorted list:", fruits)
