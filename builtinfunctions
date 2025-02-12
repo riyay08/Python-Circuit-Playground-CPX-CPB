@@ -1,0 +1,49 @@
+# Using Python's Built-in Functions
+
+# abs() - Returns the absolute value of a number
+x = (4 + 5) * -7
+abs_x = abs(x)
+print(f"The absolute value of {x} is {abs_x}")
+
+# bin() - Converts a decimal number to its binary representation
+decimal_num = 42
+binary_representation = bin(decimal_num)
+print(f"The binary representation of {decimal_num} is {binary_representation}")
+
+# hex() - Converts a decimal number to its hexadecimal representation
+hex_representation = hex(decimal_num)
+print(f"The hexadecimal representation of {decimal_num} is {hex_representation}")
+
+# chr() - Converts a Unicode value to its printable character
+unicode_value = 65  # Unicode for 'A'
+character = chr(unicode_value)
+print(f"The character for Unicode value {unicode_value} is '{character}'")
+
+# round() - Rounds a floating point number to the specified precision
+long_float = 3.14159265359
+rounded_float = round(long_float, 2)  # Rounding to 2 decimal places
+print(f"The number {long_float} rounded to 2 decimal places is {rounded_float}")
+
+# Try additional functions
+
+# 1. len() - Returns the length of a string
+text = "Hello, world!"
+length_of_text = len(text)
+print(f"The length of the text '{text}' is {length_of_text}")
+
+# 2. type() - Returns the type of an object
+num_type = type(decimal_num)
+print(f"The type of {decimal_num} is {num_type}")
+
+# 3. sum() - Returns the sum of all elements in an iterable
+numbers_list = [1, 2, 3, 4, 5]
+total_sum = sum(numbers_list)
+print(f"The sum of the list {numbers_list} is {total_sum}")
+
+# 4. min() - Returns the smallest number in an iterable
+smallest_number = min(numbers_list)
+print(f"The smallest number in {numbers_list} is {smallest_number}")
+
+# 5. max() - Returns the largest number in an iterable
+largest_number = max(numbers_list)
+print(f"The largest number in {numbers_list} is {largest_number}")
