@@ -1,0 +1,21 @@
+print("Starting Code Challenge")
+
+user_input = int(input())  
+print(user_input)
+
+print("Starting While Loop - Comparing User & Count Variable")
+
+count = 0  
+
+while count < 10:  
+    print(count)
+
+    if count == user_input:
+        print("The User variable is equal to the count variable.")
+        print(f"User = {user_input}")
+        print(f"Count = {count}")
+
+    count += 1  
+
+print("Starting While Loop")
+print("End Code Challenge")
