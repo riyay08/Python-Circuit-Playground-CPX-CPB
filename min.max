@@ -1,0 +1,21 @@
+# Challenge #1: Using min() and max() functions
+my_string = 'STEAM Is Cool'
+print('The variable "my_string" = ', my_string)
+
+# Using max() and min() to find the "biggest" and "smallest" character
+biggest = max(my_string)
+print('The biggest character in the \nstring "STEAM Is Cool" is', biggest)
+
+smallest = min(my_string)
+print('The smallest character in the \nstring "STEAM Is Cool" is', smallest)
+
+# Challenge #2: Asking the user for input
+user_input = input("Please enter a long sentence: ")
+print('The variable "user_input" = ', user_input)
+
+# Using max() and min() on the user's input
+biggest_user_input = max(user_input)
+print('The biggest character in the user input is', biggest_user_input)
+
+smallest_user_input = min(user_input)
+print('The smallest character in the user input is', smallest_user_input)
