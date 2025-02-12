@@ -1,0 +1,7 @@
+# Using the ord() and chr() functions
+
+# The word "Iñigo" contains the special character "ñ", which has the Unicode value of 0xf1
+# Using chr() to get the special character and complete the sentence
+
+print('Hola, Mi nombre es I' + str(chr(0xf1)) + 'igo Montoya')
+print('Tu mataste a mi padre. Prepárate a morir')
