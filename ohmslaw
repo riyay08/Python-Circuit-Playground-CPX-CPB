@@ -1,0 +1,21 @@
+def calculate_resistor(volts, current):
+    current_in_amperes = current / 1000
+    resistor_value = volts / current_in_amperes
+    return resistor_value
+
+def main():
+    omega_unicode = ord('Ω')
+    print(f"The Unicode value for 'Ω' is: {hex(omega_unicode)}")
+
+    volts = 5
+    current = 20
+    resistor_value = calculate_resistor(volts, current)
+    print(f"A circuit with a voltage of {volts}v and a current of {current}mA will require a resistor of {resistor_value}{chr(omega_unicode)}")
+
+    user_volts = float(input("Enter the voltage in volts: "))
+    user_current = float(input("Enter the current in mA (milliAmps): "))
+    user_resistor_value = calculate_resistor(user_volts, user_current)
+    print(f"A circuit with a voltage of {user_volts}v and a current of {user_current}mA will require a resistor of {user_resistor_value}{chr(omega_unicode)}")
+
+if __name__ == "__main__":
+    main()
