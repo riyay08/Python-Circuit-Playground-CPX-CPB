@@ -1,0 +1,40 @@
+# Creating a tuple
+tuple1 = (10, 20, 30, 40, 50)
+tuple2 = ('a', 'z', 'b', 'y', 'c')
+
+# Using max() to find the largest number and character
+max_num = max(tuple1)
+max_char = max(tuple2)
+print("The largest number in tuple1 is:", max_num)
+print("The largest character in tuple2 is:", max_char)
+
+# Using min() to find the smallest number and character
+min_num = min(tuple1)
+min_char = min(tuple2)
+print("The smallest number in tuple1 is:", min_num)
+print("The smallest character in tuple2 is:", min_char)
+
+# Using len() to get the length of the tuple
+length1 = len(tuple1)
+length2 = len(tuple2)
+print("The length of tuple1 is:", length1)
+print("The length of tuple2 is:", length2)
+
+# Using sum() to calculate the sum of elements in a numerical tuple
+sum_tuple = sum(tuple1)
+print("The sum of all numbers in tuple1 is:", sum_tuple)
+
+# Using sorted() to return a sorted list from a tuple
+sorted_tuple1 = sorted(tuple1)
+sorted_tuple2 = sorted(tuple2)
+print("Sorted tuple1:", sorted_tuple1)
+print("Sorted tuple2:", sorted_tuple2)
+
+# Asking user for input and creating a tuple
+user_input = tuple(input("Enter some characters separated by spaces: ").split())
+print("User entered tuple:", user_input)
+
+# Finding max and min in user input tuple
+if user_input:  # Ensuring tuple is not empty
+    print("The largest character in your tuple is:", max(user_input))
+    print("The smallest character in your tuple is:", min(user_input))
