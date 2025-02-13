@@ -1,0 +1,12 @@
+def sum_and_avg(numbers):
+    total = sum(numbers)
+    avg = total / len(numbers)
+    return total, avg
+
+num_tuple = (4, 7, 5)
+
+result = sum_and_avg(num_tuple)
+
+print("Tuple:", result)
+print("Sum =", result[0])
+print("Avg =", result[1])
