@@ -1,0 +1,18 @@
+# Tuple of animal types you want to count
+animal_types = ('Elephants', 'Lions', 'Gnu')
+
+# Tuple or list of animals seen on a specific day (can be changed)
+short_animal_tuple = ('Elephants', 'Elephants', 'Lions', 'Gnu', 'Elephants', 'Gnu', 'Gnu')
+
+# Create a dictionary to store the animal count
+animal_count = {animal: 0 for animal in animal_types}
+
+# Count the animals from short_animal_tuple
+for animal in short_animal_tuple:
+    if animal in animal_count:
+        animal_count[animal] += 1
+
+# Print the total count for each animal
+print("Animal Count")
+for animal in animal_types:
+    print(f"{animal} = {animal_count[animal]}")
