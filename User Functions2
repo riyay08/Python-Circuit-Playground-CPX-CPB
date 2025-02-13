@@ -1,1 +1,27 @@
+def greet(lang):
+    if lang == 'es':
+        return 'Hola'
+    elif lang == 'fr':
+        return 'Bonjour'
+    elif lang == 'sw':
+        return 'Habari'
+    elif lang == 'uk':
+        return 'Привіт'
+    elif lang == 'elv':
+        return 'Mae govannen'
+    elif lang == 'tlh':
+        return 'nuqneH'
+    else:
+        return 'Hello'
+
+def main():
+    print(greet('en'), 'Glenn')
+    print(greet('fr'), 'Sabine')
+    print(greet('es'), 'Carlos')
+
+    user_name = input("Enter your name: ")
+    user_lang = input("Enter your language code (en, es, fr, sw, uk, elv, tlh): ")
+    print(greet(user_lang), user_name)
+
+main()
 
