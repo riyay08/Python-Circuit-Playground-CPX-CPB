@@ -1,0 +1,27 @@
+
+def my_math(x, y):
+    return x + y
+
+def my_multiply(x, y):
+    return x * y
+
+def my_special_add(x, y):
+    result = x + y
+    if result % 2 != 0:
+        result += 1
+    return result
+
+def main():
+    my_num_1 = 5
+    my_num_2 = 2
+
+    sum_result = my_math(my_num_1, my_num_2)
+    print("The sum of", my_num_1, "+", my_num_2, "=", sum_result)
+
+    multiply_result = my_multiply(my_num_1, my_num_2)
+    print("The product of", my_num_1, "*", my_num_2, "=", multiply_result)
+
+    special_sum_result = my_special_add(my_num_1, my_num_2)
+    print("The special sum of", my_num_1, "+", my_num_2, "=", special_sum_result)
+
+main()
