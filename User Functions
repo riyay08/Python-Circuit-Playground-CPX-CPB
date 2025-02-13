@@ -11,6 +11,18 @@ def my_special_add(x, y):
         result += 1
     return result
 
+def my_math(x,y) :
+  z=x+y
+  return z
+
+def main():
+  my_num_1 = 5
+  my_num_2 = 2
+  sum = my_math(my_num_1, my_num_2)
+  print("The sum of", my_num_1, "+", my_num_2, "=",sum)
+
+main()
+
 def main():
     my_num_1 = 5
     my_num_2 = 2
