@@ -1,0 +1,16 @@
+import time
+
+fruits_list = ['apple', 'banana', 'cherry', 'date']
+print(fruits_list[1])
+
+fruits_dict = {'a': 'apple', 'b': 'banana', 'c': 'cherry', 'd': 'date'}
+print(fruits_dict['b'])
+
+search_item = 'cherry'
+start = time.time()
+found = search_item in fruits_list
+print(time.time() - start, found)
+
+start = time.time()
+found = 'c' in fruits_dict
+print(time.time() - start, found)
