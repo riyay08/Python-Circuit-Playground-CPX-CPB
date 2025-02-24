@@ -1,0 +1,20 @@
+
+person = {
+    "name": "John",
+    "age": 25,
+    "city": "New York"
+}
+
+print("Name:", person["name"])
+print("Age:", person["age"])
+
+person["job"] = "Developer"
+print("Job:", person["job"])
+
+person["age"] = 26
+print("Updated Age:", person["age"])
+
+print("City:", person.get("city"))
+
+for key, value in person.items():
+    print(key, ":", value)
