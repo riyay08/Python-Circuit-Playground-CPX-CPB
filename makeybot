@@ -1,0 +1,45 @@
+
+makey_bot = {
+    'wave_pattern': [45, 2, 90, 1, 180, 3],
+    'eyes_rgb_status': 1,
+    'rgb_eye_color_1': '#FF5733',
+    'rgb_eye_color_2': '#33FF57',
+    '7seg_value': 5,
+    'led_1_status': 1,
+    'led_1_blink': 0.5,
+    'led_2_status': 0,
+    'led_2_blink': 0.7,
+    'led_3_status': 1,
+    'led_3_blink': 1.2
+}
+
+
+print("Makey Bot Dictionary:")
+print(makey_bot)
+
+
+user_key = input("Please enter a key to check: ")
+
+
+if user_key in makey_bot:
+    print(f"The value for '{user_key}' is: {makey_bot[user_key]}")
+else:
+    print(f"'{user_key}' is not a valid key in the dictionary.")
+
+
+update_key = input("Enter the key you want to update: ")
+if update_key in makey_bot:
+    new_value = input(f"Enter the new value for '{update_key}': ")
+
+    try:
+        if new_value.isdigit():
+            makey_bot[update_key] = int(new_value)
+        elif new_value.replace('.', '', 1).isdigit():
+            makey_bot[update_key] = float(new_value)
+        else:
+            makey_bot[update_key] = new_value
+        print(f"Updated '{update_key}' to: {makey_bot[update_key]}")
+    except ValueError:
+        print("Invalid input. Could not update the value.")
+else:
+    print(f"'{update_key}' is not a valid key in the dictionary.")
